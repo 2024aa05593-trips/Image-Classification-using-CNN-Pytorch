@@ -1,0 +1,24 @@
+artifact_path: file:///C:/Users/jmajjigi/OneDrive - Microsoft/Jambanna/Personal/MTech/SEM
+  III/MLOPS/AssignmentII/mlruns/3/models/m-d3b41bcf087840f39e5882833f37a1e9/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.3
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.2.0+cpu
+mlflow_version: 3.8.0
+model_id: m-d3b41bcf087840f39e5882833f37a1e9
+model_size_bytes: 51409988
+model_uuid: m-d3b41bcf087840f39e5882833f37a1e9
+prompts: null
+run_id: 7833e65e978a442a87fec3448e832f91
+utc_time_created: '2026-02-19 10:26:29.165090'

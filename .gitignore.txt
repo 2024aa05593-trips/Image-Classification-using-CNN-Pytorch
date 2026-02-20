@@ -1,0 +1,9 @@
+mlruns/
+mlruns_test/
+models/
+artifacts/
+__pycache__/
+*.pt
+*.pth
+.env
+venv/
