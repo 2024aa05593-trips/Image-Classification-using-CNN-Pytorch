@@ -12,6 +12,9 @@ import warnings
 # Suppress MLflow warning about artifact_path deprecation
 warnings.filterwarnings("ignore", message=".*artifact_path is deprecated.*")
 
+# Force MLflow to log locally inside project folder
+mlflow.set_tracking_uri("file:./mlruns")
+
 
 Num_epochs = 1
 

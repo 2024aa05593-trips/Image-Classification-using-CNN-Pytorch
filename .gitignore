@@ -1,9 +1,8 @@
+.venv/
+venv/
 mlruns/
-mlruns_test/
+mlflow.db
+__pycache__/
+*.pyc
 models/
 artifacts/
-__pycache__/
-*.pt
-*.pth
-.env
-venv/
